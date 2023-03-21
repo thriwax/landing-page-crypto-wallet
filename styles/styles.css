@@ -1,0 +1,1100 @@
+@font-face {
+    font-family: "Godrita Light";
+    src: url('../fonts/Gordita-Light.ttf');
+}
+
+@font-face {
+    font-family: "Godrita Regular";
+    src: url('../fonts/Gordita-Medium.ttf');
+}
+
+@font-face {
+    font-family: "Godrita Medium";
+    src: url('../fonts/Gordita-Medium.ttf');
+}
+
+@font-face {
+    font-family: "Rajdhani SemiBold";
+    src: url('../fonts/Rajdhani-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: "Inter Light";
+    src: url('../fonts/Inter-Light.otf');
+}
+
+@font-face {
+    font-family: "Circular Book";
+    src: url('../fonts/CircularStd-Book.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    width: 100%;
+    height: fit-content;
+    background: linear-gradient(348.8deg,
+            #12056a 2.44%,
+            #09092e 14.03%,
+            #000617 30.32%,
+            rgba(0, 6, 23, 0) 32.63%),
+        linear-gradient(163.5deg, #12056a 1.15%, #09092e 18.57%, #000617 34.61%);
+}
+
+body {
+
+    color: #FFFFFF;
+
+    max-width: 1050px;
+    margin: auto;
+
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    max-width: 1050px;
+
+    padding-top: 42px;
+}
+
+.header_logo {
+    width: 54.6px;
+    height: 54.6px;
+}
+
+.header_nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 31px;
+    margin-left: 400px;
+}
+
+.header_nav_item {
+    list-style-type: none;
+}
+
+.nav_item {
+    display: flex;
+    flex-direction: row;
+    gap: 4.2px;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav_item_text {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.7px;
+    line-height: 19px;
+    text-align: right;
+
+    color: #8683a4;
+}
+
+.nav_item_icon {
+    width: 14.7px;
+    height: 14.7px;
+}
+
+.header_buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 13px;
+}
+
+.header_login {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 21px;
+    padding-right: 21px;
+
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 36.75px;
+
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12.6px;
+    line-height: 16px;
+
+    color: #ffffff;
+}
+
+.header_signup {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 21px;
+    padding-right: 21px;
+
+    background: #0267FF;
+    border-radius: 36.75px;
+
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12.6px;
+    line-height: 16px;
+
+    color: #ffffff;
+}
+
+.header_logo {}
+
+.main {
+    margin: auto;
+}
+
+.main_section {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 36.2px;
+    margin-right: 586.08px;
+    margin-top: 98.4px;
+}
+
+.main_title {
+    width: 720.3px;
+    height: 144px;
+
+    font-family: "Godrita Light";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 75.6px;
+    line-height: 72px;
+    /* or 95% */
+
+
+    background: linear-gradient(92.09deg, #FFFFFF 3.42%, rgba(255, 255, 255, 0.932755) 56.55%, rgba(255, 255, 255, 0) 111.05%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.main_desc {
+    padding-top: 23.1px;
+    padding-bottom: 38.85px;
+    width: 552.3px;
+    height: 97.65px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 31px;
+
+
+
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.main_button {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18.9px;
+    line-height: 25px;
+
+
+    color: #FFFFFF;
+    background: #0267FF;
+    border-radius: 58.8px;
+    padding-top: 16.8px;
+    padding-bottom: 16.8px;
+    padding-left: 50.4px;
+    padding-right: 50.4px;
+    margin-top: 38.85px;
+}
+
+.popular_wallet {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding-top: 420px;
+}
+
+.popular_wallet_title {
+    font-family: "Godrita Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50.4px;
+    line-height: 72px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 29.4px;
+    padding-top: 45.15px;
+}
+
+.card {
+    box-sizing: border-box;
+    background: #171D33;
+    width: 309.75px;
+    height: 219.45px;
+    padding: 25px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card_flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.card_title {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18.9px;
+    line-height: 25px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+.card_title_icon {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.7px;
+    line-height: 19px;
+
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.card_price_title {
+    padding-top: 27.5px;
+    font-family: "Rajdhani SemiBold";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 37.8px;
+    line-height: 48px;
+
+    color: #FFFFFF;
+}
+
+.card_info {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    max-width: 261.15px;
+}
+
+.card_desc {
+    background: #FF8811;
+    border-radius: 56.7px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14.7px;
+    line-height: 19px;
+    text-align: center;
+
+
+    color: #FFFFFF;
+
+    padding-top: 6.3px;
+    padding-bottom: 6.3px;
+    padding-right: 10.5px;
+    padding-left: 10.5px;
+    margin-top: 16.05px;
+}
+
+#card_color_two {
+    background: #9111FF;
+}
+
+#card_color_three {
+    background: #11BBFF;
+}
+
+.card_img {}
+
+.popular_wallet_button {
+    padding: 60px;
+
+}
+
+.connect_wallet_button {
+    box-sizing: border-box;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16.8px;
+    line-height: 22px;
+    text-align: center;
+
+    color: #0267FF;
+
+    border: 1.05px solid #0267FF;
+    border-radius: 36.75px;
+
+    padding: 9px 25px 9px 25px;
+}
+
+.specs_banner {
+    margin: auto;
+}
+
+.specs_list {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 84px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    padding-top: 87px;
+}
+
+.specs_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.specs_title {
+    font-family: "Godrita Regular";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50.4px;
+    line-height: 72px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.specs_desc {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18.9px;
+    line-height: 25px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.faq_title {
+    padding-top: 135px;
+    font-family: 'Circular Book';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 36px;
+
+
+    text-align: center;
+
+    color: #E9E8ED;
+}
+
+.quick_steps_title {
+    font-family: "Godrita Light";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50.4px;
+    line-height: 72px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+
+    padding-top: 110px;
+    padding-bottom: 66px;
+}
+
+.quick_steps_grid {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 311px;
+}
+
+.grid_one {
+    display: flex;
+    flex-flow: column;
+    /* align-content: flex-start; */
+    justify-content: flex-start;
+    gap: 60px;
+}
+
+.grid_two {
+    display: flex;
+    flex-flow: column;
+    /* align-content: flex-start; */
+    justify-content: flex-start;
+    gap: 60px;
+}
+
+.grid_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.main_sign {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50.4px;
+    line-height: 66px;
+    /* identical to box height */
+    padding-right: 41px;
+
+
+    color: rgba(255, 255, 255, 0.2);
+}
+
+.row_title {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25.2px;
+    line-height: 33px;
+
+
+
+    color: #FFFFFF;
+}
+
+.row_desc {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18.9px;
+    line-height: 25px;
+    width: 230px;
+    height: 25px;
+
+
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.quick_steps_button {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18.9px;
+    line-height: 25px;
+
+
+
+    color: #FFFFFF;
+
+    padding: 16px 38px;
+    background: #0267FF;
+    border-radius: 37.8px;
+    margin-top: 50px;
+}
+
+.banner_container {
+    margin-top: 204px;
+    margin-bottom: 174px;
+    width: 1050px;
+    height: 420px;
+    background: linear-gradient(100.51deg, #171D33 7.82%, rgba(23, 29, 51, 0) 111.93%);
+    border-radius: 46.2px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.banner_title {
+    padding-top: 80px;
+    padding-bottom: 14px;
+    width: 676.2px;
+    height: 118px;
+    font-family: "Godrita Light";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50.4px;
+    line-height: 59px;
+    /* or 117% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.banner_desc {
+    padding-bottom: 40px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16.8px;
+    line-height: 29px;
+    /* identical to box height, or 175% */
+
+    text-align: center;
+    letter-spacing: 0.01em;
+
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.banner_button {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18.9px;
+    line-height: 25px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+    padding: 16px 50px;
+    background: #0267FF;
+    border-radius: 58.8px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    padding-bottom: 77px;
+}
+
+.footer_main {
+    padding-bottom: 77px;
+}
+
+.footer_list_title {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18.9px;
+    line-height: 29px;
+    padding-bottom: 28px;
+
+
+    color: #FFFFFF;
+}
+
+.footer_lists {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    padding-left: 90px;
+}
+
+.footer_list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer_list_link {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16.8px;
+    line-height: 27px;
+    padding-bottom: 15px;
+
+
+    color: #DDDDDD;
+}
+
+
+.footer_title {
+    width: 89px;
+    height: 41px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31.5px;
+    line-height: 41px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+.footer_desc {
+    width: 334.95px;
+    height: 54.6px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16.8px;
+    line-height: 27px;
+    /* or 163% */
+
+
+    color: #FFFFFF;
+}
+
+span {
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.footer_svg {
+    max-width: 1050px;
+
+    margin: auto;
+    padding-bottom: 21px;
+}
+
+svg {
+    max-width: 1050px;
+
+}
+
+.footer_bar {
+    display: flex;
+    flex-direction: row;
+    gap: 16.8px;
+    justify-content: center;
+}
+
+.caption {
+    margin: auto;
+    text-align: center;
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14.7px;
+line-height: 27px;
+
+
+color: #E8F9F5;
+padding-top: 10px;
+padding-bottom: 22px;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    padding-top: 36px;
+    gap: 10px;
+}
+
+button {
+    outline: none;
+    border: none;
+    padding: 9px 23px;
+    background: #0267FF;
+    border-radius: 105px;
+
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 16.8px;
+line-height: 23px;
+
+color: #FFFFFF;
+}
+
+input {
+    width: 241.5px;
+    height: 42px;
+    mix-blend-mode: normal;
+border: 1.05px solid rgba(229, 242, 239, 0.33);
+border-radius: 105px;
+background: none;
+}
+
+input::placeholder {
+    padding-left: 19px;
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 16.8px;
+line-height: 23px;
+}
+
+
+.footer_logo {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Макет для телефонов */
+@media only screen and (min-width: 375px) and (max-width: 833px) {
+    header {
+        max-width: 300px;
+    }
+    nav {
+        display: none;
+    }
+
+    .main_title {
+        text-align: center;
+    font-size: 40px;
+    line-height: 40px;
+    width: 350px;
+    }
+
+    .main_desc {
+        text-align: center;
+    padding-bottom: 60px;
+    font-size: 16px;
+    max-width: 350px;
+    }
+
+    .main_section {
+        margin-right: 0;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .grid_container {
+        justify-content: center;
+    }
+
+    .quick_steps {
+        max-width: 300px;
+    margin: auto;
+    }
+
+    .quick_steps_grid {
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;   
+    }
+
+    .quick_steps_title {
+        text-align: center;
+    }
+
+    .quick_steps_button {
+        display: none;
+    }
+
+    .cards {
+        flex-wrap: wrap;
+        max-width: 300px;
+    }
+
+    .specs_banner {
+        max-width: 300px;
+    }
+
+    .specs_list {
+        flex-wrap: wrap;
+    }
+
+    .content {
+        max-width: 300px;
+    }
+
+    .banner {
+        padding-top: 50px;
+    }
+
+    .banner_container {
+        width: 300px;
+    margin: auto;
+    }
+
+    .footer {
+        flex-direction: column;
+        padding-top: 100px;
+    }
+
+    .footer_title {
+        padding-top: 15px;
+        padding-bottom: 10px;
+    }
+
+    .footer_main {
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 300px;
+    align-items: center;
+    margin: auto;
+    }
+
+    .footer_desc {
+        text-align: center;
+    }
+
+    .footer_lists {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .footer_list {
+        align-items: center;
+    justify-content: center;
+    }
+
+    .footer_svg {
+        display: none;
+    }
+
+    .banner_title {
+        font-size: 34px;
+        max-width: 280px;
+        line-height: 34px;
+        padding-top: 50px;
+    }
+
+    .banner_desc {
+        max-width: 250px;
+    }
+
+    .popular_wallet_title {
+        font-size: 46px;
+    }
+
+    .connect_wallet_button {
+        padding: 25px 60px;
+    }
+    .main_sign {
+        padding-right: 20px;
+    }
+    .cards {
+        width: 300px;
+        flex-wrap: wrap;
+    }
+
+    form {
+        flex-direction: column;
+    }
+
+    input::placeholder {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .footer_logo {
+        display: block;
+        width: 54.6px;
+height: 54.6px;
+    }
+}
+
+
+
+/* Макет для планшетов */
+@media only screen and (min-width: 834px) and (max-width: 1279px) {
+    header {
+        max-width: 700px;
+    }
+    nav {
+        display: none;
+    }
+
+    .main_title {
+        text-align: center;
+    }
+
+    .main_desc {
+        text-align: center;
+        padding-bottom: 60px;
+    }
+
+    .main_section {
+        margin-right: 0;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .grid_container {
+        justify-content: center;
+    }
+
+    .quick_steps {
+        max-width: 700px;
+    margin: auto;
+    }
+
+    .quick_steps_grid {
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;   
+    }
+
+    .quick_steps_title {
+        text-align: center;
+    }
+
+    .quick_steps_button {
+        display: none;
+    }
+
+    .cards {
+        flex-wrap: wrap;
+        max-width: 700px;
+    }
+
+    .specs_banner {
+        max-width: 700px;
+    }
+
+    .specs_list {
+        flex-wrap: wrap;
+    }
+
+    .content {
+        max-width: 600px;
+    }
+
+    .banner {
+        padding-top: 50px;
+    }
+
+    .banner_container {
+        width: 700px;
+    margin: auto;
+    }
+
+    .footer {
+        flex-direction: column;
+        padding-top: 100px;
+    }
+
+    .footer_main {
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 700px;
+    align-items: center;
+    margin: auto;
+    }
+
+    .footer_title {
+        padding-top: 15px;
+        padding-bottom: 10px;
+    }
+
+    .footer_desc {
+        text-align: center;
+    }
+
+    .footer_lists {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .footer_list {
+        align-items: center;
+    justify-content: center;
+    }
+
+    .footer_svg {
+        display: none;
+    }
+
+    .footer_logo {
+        display: block;
+        width: 54.6px;
+height: 54.6px;
+    }
+}

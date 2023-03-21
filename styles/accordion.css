@@ -1,0 +1,120 @@
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding-top: 51px;
+  }
+  .content {
+    width: 1050px;
+  }
+  .header {
+    position: relative;
+    text-align: center;
+    margin-bottom: 15px;
+    font-family: "Pacifico", cursive;
+    background: #273548;
+    font-size: 20px;
+  }
+  .header img {
+    position: relative;
+    width: 40px;
+    top: 5px;
+  }
+  .menu-item {
+    margin-bottom: 5px;
+    border-radius: 20px;
+    background-color: #e7e7e7;
+  }
+  
+  button.accordion {
+    width: 100%;
+    border: none;
+    border-radius: 20px;
+    background: #273548;
+    outline: none;
+    text-align: left;
+    padding: 13px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 2s linear;
+    font-family: 'Inter Light';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 36px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .main-content :nth-child(odd) button {
+    background: #273548;
+    color: white;
+  }
+  .main-content :nth-child(even) button {
+    background-color: #e7e7e7;
+    background: #273548;
+  }
+  button.accordion::after {
+    padding-top: 10px;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: url('../img/accordion_after.svg');
+    font-size: 16px;
+    float: right;
+    background: #273548;
+  }
+  
+  button.accordion.is-open::after {
+    content: url('../img/accordion_before.svg');
+    color: white;
+    
+  }
+  button.accordion:hover::after {
+    color: white;
+  }
+  
+  button.accordion:hover,
+  button.accordion.is-open {
+    background: #273548;
+    color: white;
+  }
+  
+  .submenu {
+    display: none;
+    list-style: none;
+    background-color: #e7e7e7;
+    border-radius: 20px;
+    padding: 10px 20px;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: #4f4f4f;
+    font-size: 15px;
+  }
+  li {
+    margin-bottom: 10px;
+  }
+  li:last-child {
+    margin-bottom: 0;
+  }
+  .submenu.is-open {
+    display: block;
+  }
+
+  .accordion_answer {
+    font-family: 'Inter Light';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 36px;
+
+color: black;
+  }
